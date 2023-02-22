@@ -1,0 +1,32 @@
+body {
+    background-color: #3a3a3a;
+    }
+    .link {
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: left;
+    margin: 30px auto 0; font-size: 30px;
+    width: 10;
+    padding: 10px;
+    transition: .3s;
+    background: linear-gradient(to right, #ff0000, rgb(0, 0, 0)); background-size: 0 3px; background-position: 0 100%; background-repeat: no-repeat;
+    }
+    .link:hover {
+    background-size: 40% 5px;
+    }
+
+    .load {
+        border: 10px solid black;
+        border-radius: 0%;
+        border-top: 10px solid red;
+        border-bottom: 10px solid green;
+        width: 20px;
+
+        height: 20px;
+        animation: rotate 1s linear infinite;
+        }
+        @keyframes rotate {
+        0% { transform: rotate(0deg) ;}
+        100% { transform: rotate(360deg) ;}
+        }
